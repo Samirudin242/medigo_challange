@@ -1,0 +1,167 @@
+[
+    {
+        "name": "dr.Agieta Z, spTHT-KL",
+        "gender": "female",
+        "ability": "Bedah Sinus Endoskopi dan Nasal, Bedah Nasal Endoskopi, Timpanoplasti",
+        "disease": "Batuk Kronis, Sinustis Kronis, Kesulitan Menenal",
+        "online": true,
+        "schedule": "Senin(10.00 - 12.00), Selasa(10.00 - 12.00), Rabu(10.00 - 12.00)",
+        "FieldId": 1,
+        "CityId": 1,
+        "HospitalId": null  
+    },
+    {
+        "name": "dr.Gita Permatasari",
+        "gender": "female",
+        "ability": "",
+        "disease": "Influenza, Migrain, Demam",
+        "online": true,
+        "schedule": "Senin(10.00 - 12.00), Selasa(10.00 - 12.00), Rabu(10.00 - 12.00)",
+        "FieldId": 1,
+        "CityId": 2,
+        "HospitalId": null  
+    },
+    {
+        "name": "dr. Monica Lilipaly",
+        "gender": "female",
+        "ability": "Bedah Sinus Endoskopi dan Nasal, Bedah Nasal Endoskopi, Timpanoplasti",
+        "disease": "Influenza, Migrain, Demam",
+        "online": false,
+        "schedule": "Senin(10.00 - 12.00), Selasa(10.00 - 12.00), Rabu(10.00 - 12.00)",
+        "FieldId": 1,
+        "CityId": 3,
+        "HospitalId": null
+    },
+    {
+        "name": "drg. Maureen Antolis",
+        "gender": "female",
+        "ability": "Endodontis, Periodontist",
+        "disease": "gusi, gigi",
+        "online": true,
+        "schedule": "Senin(10.00 - 12.00), Selasa(10.00 - 12.00)",
+        "FieldId": 2,
+        "CityId": 1,
+        "HospitalId": null
+    },
+    {
+        "name": "drg. Ike Fishurie",
+        "gender": "female",
+        "ability": "Pedodontist, Orthodontist",
+        "disease": "gusi, gigi",
+        "online": true,
+        "schedule": "Senin(10.00 - 12.00), Selasa(10.00 - 12.00)",
+        "FieldId": 2,
+        "CityId": 2,
+        "HospitalId": null  
+    },
+    {
+        "name": "drg. Eka Yesaya",
+        "gender": "male",
+        "ability": "Pedodontist, Oral Surgeon",
+        "disease": "gusi, gigi",
+        "online": true,
+        "schedule": "Senin(10.00 - 12.00), Selasa(10.00 - 12.00)",
+        "FieldId": 2,
+        "CityId": 3,
+        "HospitalId": null  
+    },
+    {
+        "name": "DR. dr. Doni Firman, Sp.JP (K)",
+        "gender": "male",
+        "ability": "Angioplasti, Angiografi.",
+        "disease": "",
+        "online": true,
+        "schedule": "Senin(10.00 - 12.00), Selasa(10.00 - 12.00)",
+        "FieldId": 2,
+        "CityId": 1,
+        "HospitalId": null  
+    },
+    {
+        "name": "dr. Rini Pramesti, Sp.JP (K)., FIHA",
+        "gender": "male",
+        "ability": "Angioplasti, Angiografi.",
+        "disease": "",
+        "online": true,
+        "schedule": "Senin(10.00 - 12.00), Selasa(10.00 - 12.00)",
+        "FieldId": 3,
+        "CityId": 2,
+        "HospitalId": null  
+    },
+    {
+        "name": "dr. Andriga Dirgantomo, Sp.JP., FIHA",
+        "gender": "male",
+        "ability": "Angioplasti, Angiografi.",
+        "disease": "",
+        "online": true,
+        "schedule": "Senin(10.00 - 12.00), Selasa(10.00 - 12.00)",
+        "FieldId": 3,
+        "CityId": 3,
+        "HospitalId": null  
+    },
+    {
+        "name": "dr. Sammy Yahya, Sp.KK",
+        "gender": "male",
+        "ability": "",
+        "disease": "alergi kulit, kanker kulit, infeksi jamur",
+        "online": false,
+        "schedule": "Senin(10.00 - 12.00), Selasa(10.00 - 12.00), Rabu(10.00 - 12.00)",
+        "FieldId": 4,
+        "CityId": 1,
+        "HospitalId": null  
+    },
+    {
+        "name": "dr. Maria Basir Djatmoko, Sp.KK",
+        "gender": "female",
+        "ability": "",
+        "disease": "alergi kulit, kanker kulit, infeksi jamur",
+        "online": true,
+        "schedule": "Senin(10.00 - 12.00), Selasa(10.00 - 12.00), Rabu(10.00 - 12.00)",
+        "FieldId": 4,
+        "CityId": 2,
+        "HospitalId": null  
+    },
+    {
+        "name": "dr. Anggraeni Noviandini, Sp.KK",
+        "gender": "female",
+        "ability": "",
+        "disease": "alergi kulit, kanker kulit, infeksi jamur",
+        "online": false,
+        "schedule": "Senin(10.00 - 12.00), Selasa(10.00 - 12.00), Rabu(10.00 - 12.00)",
+        "FieldId": 4,
+        "CityId": 3 ,
+        "HospitalId": null 
+    },
+    {
+        "name": "dr. Eka Dian Safitri, Sp.THT-KL",
+        "gender": "female",
+        "ability": "Otologi, Neurotologi, Rinologi.",
+        "disease": "",
+        "online": false,
+        "schedule": "Senin(10.00 - 12.00), Selasa(10.00 - 12.00), Rabu(10.00 - 12.00)",
+        "FieldId": 5,
+        "CityId": 1,
+        "HospitalId": null  
+    },
+    {
+        "name": "dr. Asbudi, Sp.THT",
+        "gender": "male",
+        "ability": "Otologi, Neurotologi, Rinologi.",
+        "disease": "",
+        "online": true,
+        "schedule": "Senin(10.00 - 12.00), Selasa(10.00 - 12.00), Rabu(10.00 - 12.00)",
+        "FieldId": 5,
+        "CityId": 2,
+        "HospitalId": null  
+    },
+    {
+        "name": "dr. Evita Fitria Edyani, Sp.THT-KL",
+        "gender": "male",
+        "ability": "Otologi, Neurotologi, Rinologi.",
+        "disease": "",
+        "online": false,
+        "schedule": "Senin(10.00 - 12.00), Selasa(10.00 - 12.00), Rabu(10.00 - 12.00)",
+        "FieldId": 5,
+        "CityId": 3,
+        "HospitalId": null  
+    }
+]
