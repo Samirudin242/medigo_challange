@@ -1,7 +1,6 @@
 <template>
   <div>
     <h1>Schedule</h1>
-    <p>arsgrag</p>
     <Navbar />
   </div>
 </template>
@@ -10,10 +9,9 @@
 import Navbar from "../components/NavbarComponent";
 export default {
   components: {
-    Navbar
-  }
+    Navbar,
+  },
 };
 </script>
 
-<style>
-</style>
+<style></style>
