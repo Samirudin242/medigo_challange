@@ -56,7 +56,7 @@
           <i class="far fa-check-circle icon_check"></i>
           <p>Bisa buat janji online</p>
         </div>
-      </div> -->
+      </div>-->
     </div>
     <router-view />
   </div>
@@ -65,7 +65,7 @@
 <script>
 export default {
   props: {
-    cityName: String,
+    cityName: String
   },
   data() {
     return {};
@@ -76,12 +76,12 @@ export default {
       this.$store.dispatch("getDoctorData", { city });
       let field = this.$store.state.field;
       this.$store.dispatch("getDataByField", { field });
-    },
+    }
   },
   computed: {
     doctors() {
       let datas = this.$store.state.doctor;
-      datas.forEach((data) => {
+      datas.forEach(data => {
         let days = data.schedule;
         let day = new Date().getDay();
         let dayName = "";
@@ -101,14 +101,18 @@ export default {
 
         let dayOutput = "";
         function getDay(days) {
+          let today = false;
           let dayArray = days.split(",");
           for (let i = 0; i < dayArray.length; i++) {
             if (dayArray[i].includes(dayName)) {
               let day = dayArray[i].replace(dayName, "Hari ini");
               dayOutput = day;
+              today = true;
             }
           }
-          dayOutput = dayArray[0];
+          if (today === false) {
+            dayOutput = dayArray[0];
+          }
         }
 
         getDay(days);
@@ -117,13 +121,13 @@ export default {
         // console.log(dayOutpu
       });
       return datas;
-    },
+    }
   },
   methods: {
     setData(id) {
       this.$store.dispatch("getDataById", { id });
-    },
-  },
+    }
+  }
 };
 </script>
 
